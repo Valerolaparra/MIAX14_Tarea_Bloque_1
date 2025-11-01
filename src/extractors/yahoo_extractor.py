@@ -1,15 +1,7 @@
-import yfinance as yf
+simport yfinance as yf
 import pandas as pd
 from abc import ABC, abstractmethod
-
-class BaseAPIClient(ABC):
-    @abstractmethod
-    def get_historical_prices(self, symbol: str, start_date: str, end_date: str) -> pd.DataFrame:
-        pass
-    
-    @abstractmethod
-    def get_info(self, symbol: str) -> dict:
-        pass
+from src.extractors.base_extractor import BaseAPIClient
 
 class YahooFinanceExtractor(BaseAPIClient):
     """Extractor para Yahoo Finance."""
