@@ -1,3 +1,7 @@
+from datetime import datetime
+from src.models.portfolio import Portfolio
+
+
 class MarkdownReportGenerator:
     """Generador de reportes en formato Markdown."""
     
