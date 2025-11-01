@@ -1,4 +1,4 @@
-README_CONTENT = """
+
 # 📊 Market Analysis Toolkit
 
 Herramienta completa para el análisis de mercados financieros, gestión de carteras y simulaciones de Monte Carlo.
