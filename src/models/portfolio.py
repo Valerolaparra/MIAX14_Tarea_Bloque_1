@@ -1,6 +1,11 @@
 from typing import Dict, List
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
+import pandas as pd
+from dataclasses import dataclass
+from src.models.price_series import PriceSeries
+
 
 
 @dataclass
