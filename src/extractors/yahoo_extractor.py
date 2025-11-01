@@ -1,4 +1,4 @@
-simport yfinance as yf
+import yfinance as yf
 import pandas as pd
 from abc import ABC, abstractmethod
 from src.extractors.base_extractor import BaseAPIClient
