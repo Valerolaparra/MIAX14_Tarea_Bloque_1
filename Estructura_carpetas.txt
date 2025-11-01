@@ -1,0 +1,34 @@
+market-analysis-toolkit/
+├── README.md
+├── requirements.txt
+├── setup.py
+├── .gitignore
+├── config/
+│   └── api_config.yaml
+├── src/
+│   ├── __init__.py
+│   ├── extractors/
+│   │   ├── __init__.py
+│   │   ├── base_extractor.py
+│   │   ├── yahoo_extractor.py
+│   │   └── alpha_vantage_extractor.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── price_series.py
+│   │   └── portfolio.py
+│   ├── processors/
+│   │   ├── __init__.py
+│   │   ├── cleaner.py
+│   │   └── validator.py
+│   ├── analysis/
+│   │   ├── __init__.py
+│   │   ├── statistics.py
+│   │   └── monte_carlo.py
+│   └── reporting/
+│       ├── __init__.py
+│       ├── markdown_generator.py
+│       └── plot_generator.py
+├── tests/
+│   └── __init__.py
+└── examples/
+    └── basic_usage.py
