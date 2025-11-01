@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import requests
 from typing import List, Dict, Optional
+import pandas as pd
 
 
 class BaseAPIClient(ABC):
