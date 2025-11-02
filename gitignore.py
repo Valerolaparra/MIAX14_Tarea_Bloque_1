@@ -38,6 +38,7 @@ ENV/
 *.xlsx
 *.json
 data/
+esquema_proyecto.png
 
 # Configuration
 config/api_keys.yaml
