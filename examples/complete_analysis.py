@@ -7,13 +7,14 @@ Script completo que demuestra todas las funcionalidades del toolkit.
 import sys
 sys.path.append('..')
 
+import matplotlib.pyplot as plt
+import pandas as pd
+
 from src.extractors.yahoo_extractor import YahooFinanceExtractor
 from src.models.price_series import PriceSeries
 from src.models.portfolio import Portfolio
 from src.processors.cleaner import DataCleaner
 from src.reporting.markdown_generator import MarkdownReportGenerator
-import matplotlib.pyplot as plt
-import pandas as pd
 from datetime import datetime, timedelta
 
 
