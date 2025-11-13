@@ -243,9 +243,9 @@ Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para detalles.
 
 ## 📧 Contacto
 
-Tu Nombre - tu.email@ejemplo.com
+Tu Nombre - valero.laparra.bme@gmail.com
 
-Proyecto Link: [https://github.com/tu-usuario/market-analysis-toolkit](https://github.com/tu-usuario/market-analysis-toolkit)
+Proyecto Link: [https://github.com/Valerolaparra/MIAX14_Tarea_Bloque_1](https://github.com/Valerolaparra/MIAX14_Tarea_Bloque_1)
 
 ---
 
